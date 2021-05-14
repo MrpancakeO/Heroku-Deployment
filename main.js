@@ -24,7 +24,7 @@ User = require("./models/user");
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/recipe_db", 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/confetti_cuisine", 
 {useNewUrlParser: true});
 mongoose.set("useCreateIndex", true);
 
